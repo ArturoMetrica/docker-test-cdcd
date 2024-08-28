@@ -20,7 +20,7 @@ export class testService {
   /*  const data={
       "boardID":boardID
     }*/
-    return this._http.get("https://34.46.61.74/test",  { headers: headers })
+    return this._https.get("https://34.46.61.74/test",  { headers: headers })
 
   }
 }
